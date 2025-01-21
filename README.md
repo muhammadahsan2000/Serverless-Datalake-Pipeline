@@ -9,21 +9,21 @@ Automated Alerts: Sends email notifications via Gmail for critical events.
 Event-Driven Workflows: Automates processing of S3 bucket changes with Lambda functions.
 Data Integrity Checks: Built-in mechanisms to validate and process data during ingestion.
 
-#Workflow
+#Workflow:
 Data Ingestion:
 
 Files uploaded to Amazon S3 trigger an AWS Lambda function for processing.
 The Lambda function validates and extracts data.
-Event Monitoring:
+#Event Monitoring:
 
 CloudWatch tracks events and triggers secondary Lambda functions as needed.
 Processed data is stored in a secondary S3 bucket.
-Alerting and Notifications:
+#Alerting and Notifications:
 
 CloudWatch monitors for specific metrics or errors.
 Email alerts are sent via Gmail for critical events.
 
-#Technologies Used
+#Technologies Used:
 Amazon S3: For file storage and triggering events.
 AWS Lambda: For serverless compute to process data and automate workflows.
 CloudWatch: For monitoring and logging events.
